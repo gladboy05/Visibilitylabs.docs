@@ -1,0 +1,108 @@
+Multi-OEM/Retail Project Version : 180226-R84.0 - BaseLine  [MRP via MDL Forum ONLY] 
+ 
+Required project files extracted successfully. 
+ 
+OEM's folder detected, structure appears OK. 
+ 
+No Config File Detected - Using Default Settings. 
+ 
+MRP Logging Mode              : Standard 
+Confirm File Delete           : Disabled 
+W10 TitleBar Color            : Disabled 
+Show 'ThisPC' On Desktop      : Disabled 
+ 
+OS Installation Date/Time     : 01/27/2023 {UTC} -- 8:44pm 
+ 
+[OSINF] =======================  
+[OSINF] Detected OS Information  
+[OSINF] =======================  
+[OSINF] Version {SKU}         : Windows 10 Pro {48} 
+[OSINF] Edition {Registry}    : Professional {48} 
+[OSINF] Edition {CBS}         : Professional 
+[OSINF] Architecture          : 64 Bits 
+[OSINF] Build Information     : 17763.1.amd64fre.rs5_release.180914-1434 
+[OSINF] Update Build Revision : 55 
+[OSINF] Edition Language/Code : en-US / 1033 {409h} 
+[OSINF] Locale                : en-US 
+[OSINF] Language Name Value   : ENU 
+[OSINF] =======================  
+ 
+[MBINF] ======================= 
+[MBINF] Motherboard Information 
+[MBINF] ======================= 
+[MBINF] #01 CS Product Name   : [HP EliteBook 8440p] 
+[MBINF] #02 CS Model Name     : [HP EliteBook 8440p] 
+[MBINF] #04 CS Vendor Name    : [Hewlett-Packard] 
+[MBINF] #05 CS System Name    : [Hewlett-Packard] 
+[MBINF] #06 Baseboard Name    : [Hewlett-Packard] 
+[MBINF] #08 BIOS or SLIC ID   : [HPQOEM - f] 
+[MBINF] #09 SLIC Information  : [2.1] 
+[MBINF] #11 MSDM Information  : [No MSDM Table Present] 
+[MBINF] ======================= 
+ 
+[CMINF] ======================= 
+[CMINF] CPU/Memory  Information 
+[CMINF] ======================= 
+[CMINF] CPU Name/Type         : [Intel{R} Core{TM} i5 CPU       M 520  @ 2.40GHz] 
+[CMINF] CPU Description       : [Intel64 Family 6 Model 37 Stepping 5] 
+[CMINF] CPU Architecture      : [32/64 Bit Instruction Set] 
+[CMINF] CPU Cores/Threads     : [2] / [4] 
+[CMINF] Total Physical Memory : [5935 Mb] 
+[CMINF] Available Memory      : [5415 Mb] 
+[CMINF] ======================= 
+ 
+[HDTYP] Info: HDD Detected. 
+ 
+[SATOU] List user options enabled or applied... 
+[PKEIC] The PID.txt file was not detected. 
+[PKEIC] The ei.cfg file was not detected. 
+[CKDMI] Querying BIOS for any manufacturer brand information. 
+[CKDCF] Detected possible DMI conflicts... 
+[CKDCF] Possible [HP EliteBook 8440p] conflict, re-checked DMI [#01] resolved as [HP].  
+[THMOK] HP [#01] manufacturer detected for automated theme/branding. 
+[CHKMN] Computer Model Name: 'HP EliteBook 8440p' has been applied. 
+[USRFT] CustomTheme option was not used. 
+[WPCHK] Wallpaper.jpg transferred. 
+[BGDFC] Desktop backgrounds folder created. 
+[BGDFC] BackgroundDefault.jpg created from Wallpaper.jpg. 
+[RMXML] OOBE.xml file processed. 
+[UBREP] User.bmp replaced. 
+[UPREP] User.png replaced. 
+[UPREP] User-40.png replaced. 
+[UPREP] User-32.png replaced. 
+[UPREP] User-48.png replaced. 
+[UPREP] User-192.png replaced. 
+[WX81S] Lock Screen {img105.jpg} replaced. Original renamed as img0105.jpg. 
+[WX81S] Log-In Background {img100.jpg} replaced. Original renamed as img0100.jpg. 
+[OTFTS] OEM theme folder has been created. 
+[OTFTS] OEM files have been transferred. 
+[ATHBA] HP OEM theme has been applied.  
+[BSHCS] Branding script has completed. 
+ 
+[ADMAN] Add-On Manager: Started. 
+[USRAC] Windows 10: Enhanced Log-On screen has been enabled. 
+[USRAC] 'User Account Picture' registry entry applied. 
+[USRRO] Windows 'Registered Owner' {Winver} registry entry corrected. 
+[USRD0] Detected 'defaultuser0', removal process started. 
+[RDUPM] Removal of 'defaultuser0' account completed. 
+[AMBPS] BIOS/Boot Mode  : Legacy  
+[AMBPS] Partition Type  : MBR 
+[AMHDC] Controller Mode : AHCI 
+[CHKLS] License Status: Notification 
+[OSLRC] License Status Reason Code: 0xC004F034 
+[OSLRT] License not found/invalid or could not connect to the Activation Server. 
+[CHKLS] Online connection maybe required to complete activation. 
+[ADMAN] Add-On Manager: Completed. 
+[CLNUP] MRP Clean Up Routine Processed. 
+ 
+========================================================================================= 
+= Please Note: It is advisable to logout or reboot your computer when possible to       = 
+=              allow the Windows OS installed to finalize any settings.                 = 
+=                                                                                       = 
+=              If you have used any tweak options within the configuration file then    = 
+=              it is required to do a log out or reboot cycle to allow these options    = 
+=              to take effect.                                                          = 
+========================================================================================= 
+ 
+The Multi-OEM/Retail Project has completed.
+
