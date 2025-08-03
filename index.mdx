@@ -1,0 +1,79 @@
+---
+title: VisibilityLabs
+description: Next-Gen Blockchain Visibility and Analytics
+---
+
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+
+<div className="flex flex-col items-center text-center py-12 space-y-24">
+
+  {/* Hero Section */}
+  <motion.div 
+    className="max-w-2xl"
+    initial={{ opacity: 0, y: 50 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8 }}
+    id="hero"
+  >
+    <img src="/logo.png" alt="VisibilityLabs Logo" className="mx-auto w-20 mb-6" />
+    <h1 className="text-4xl font-bold mb-2 text-white">VisibilityLabs</h1>
+    <p className="text-lg text-gray-300">
+      Empowering users with real-time blockchain insights, 
+      risk monitoring, and AI-powered analytics for smarter decisions.
+    </p>
+    <div className="mt-6">
+      <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl">
+        Launch Dashboard
+      </Button>
+    </div>
+  </motion.div>
+
+  {/* Features Section */}
+  <motion.div 
+    className="grid md:grid-cols-2 gap-6 max-w-4xl w-full px-4"
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8 }}
+    viewport={{ once: true }}
+    id="features"
+  >
+    <Card className="bg-gray-800 text-white">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-semibold mb-2">Live Blockchain Tracking</h3>
+        <p>
+          Track transactions, smart contracts, and liquidity pools with instant updates.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card className="bg-gray-800 text-white">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-semibold mb-2">AI Risk Assessment</h3>
+        <p>
+          Detect suspicious activities and minimize exposure with predictive analytics.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card className="bg-gray-800 text-white">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-semibold mb-2">Portfolio Optimization</h3>
+        <p>
+          Make data-driven investment decisions across DeFi protocols using AI insights.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card className="bg-gray-800 text-white">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-semibold mb-2">Scalable & Secure</h3>
+        <p>
+          Built for performance, security, and transparency with modular architecture.
+        </p>
+      </CardContent>
+    </Card>
+  </motion.div>
+
+</div>
